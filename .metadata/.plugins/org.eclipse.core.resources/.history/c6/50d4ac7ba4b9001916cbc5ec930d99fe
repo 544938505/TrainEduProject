@@ -1,0 +1,18 @@
+package com.pan.edu.web.controller;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.pan.edu.services.TestServices;
+
+@RestController
+public class TestController implements TestServices {
+
+	@Override
+	@RequestMapping("/HelloWord/{info}")
+	public String get(@PathVariable("info") String info) {
+		return this.get(info);
+	}
+
+}

@@ -1,0 +1,3 @@
+server:
+  port: 8560
+spring:  application:    name: train-edu-zuul-server

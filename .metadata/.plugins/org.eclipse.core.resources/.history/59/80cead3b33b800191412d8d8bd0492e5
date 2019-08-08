@@ -1,0 +1,5 @@
+server:
+  port: 8100
+spring:  application:    name: train-edu-user-service
+eureka:  client:    service-url:      defaultZone: http://127.0.0.1:8550/eureka/
+  instance:    instance-id: train-edu-user-service

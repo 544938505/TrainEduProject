@@ -1,0 +1,7 @@
+package com.pan.edu.services;
+
+public interface TestServices {
+	public String get(String info);
+	
+	public String list(String info);
+}

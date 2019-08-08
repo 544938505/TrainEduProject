@@ -1,0 +1,8 @@
+package com.pan.edu.services;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TestServices {
+
+}

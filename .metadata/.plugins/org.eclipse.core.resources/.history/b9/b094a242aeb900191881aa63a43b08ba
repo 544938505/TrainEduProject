@@ -1,0 +1,10 @@
+package com.pan.edu.services;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@FeignClient(value = "train-edu-userInfo-service")
+public interface TestServices {
+	@GetMapping("/HelloWord/{info}")
+	public String get(String info);
+}

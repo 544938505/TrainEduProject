@@ -1,0 +1,8 @@
+package com.pan.edu.services;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+
+@FeignClient(value = "train-edu-userInfo-service")
+public interface TestServices {
+	public String get(String info);
+}

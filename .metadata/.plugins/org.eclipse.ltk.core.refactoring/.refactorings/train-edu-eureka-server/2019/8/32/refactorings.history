@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.pan.edu&apos; to &apos;train-edu-config-server/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;train-edu-eureka-server&apos;&#x0D;&#x0A;- Destination element: &apos;train-edu-config-server/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;train-edu-eureka-server/src/main/java/com.pan.edu&apos;" description="Copy package" destination="=train-edu-config-server/src\/main\/java" element1="/src\/main\/java&lt;com.pan.edu" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1565228866890" version="1.0"/>
+</session>

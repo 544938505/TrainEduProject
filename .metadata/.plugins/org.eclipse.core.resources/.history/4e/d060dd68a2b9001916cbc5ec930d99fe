@@ -1,0 +1,5 @@
+package com.pan.edu.web.controller;
+
+public class TestController implements Test {
+
+}

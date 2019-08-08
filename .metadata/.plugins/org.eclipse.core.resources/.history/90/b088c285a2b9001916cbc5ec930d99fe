@@ -1,0 +1,12 @@
+package com.pan.edu.web.controller;
+
+import com.pan.edu.services.TestServices;
+
+public class TestController implements TestServices {
+
+	@Override
+	public String get(String info) {
+		return null;
+	}
+
+}

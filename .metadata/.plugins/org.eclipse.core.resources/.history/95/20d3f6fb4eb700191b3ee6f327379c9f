@@ -1,0 +1,4 @@
+server:
+  port: 8560
+spring:  application:    name: train-edu-zuul-server
+eureka:  client:    service-url: 127.0.0.1      
